@@ -1,0 +1,25 @@
+body {
+background: #A770EF;  
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); 
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); 
+
+  }
+  .container {
+    max-width: 400px;
+  }
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #0052cc;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  .filtered {
+    display: none !important;
+  }
